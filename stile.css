@@ -1,0 +1,15 @@
+*{
+font-family: 'Roboto Mono', monospace;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 32px;
+}
+
+body{
+     background: linear-gradient(130deg, #6c1abe, #af4bed);
+     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
