@@ -1,28 +1,28 @@
-*{
-font-family: 'Roboto Mono', monospace;
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-size: 32px;
+* {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 32px;
 }
 
-body{
-     background: linear-gradient(130deg, #6c1abe, #af4bed);
-     min-height: 100vh;
+body {
+    background: linear-gradient(130deg, #6c1abe, #af4bed);
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center
 }
 
-ul{
+ul {
 
-    position:relative;
+    position: relative;
     transform: skewY(-15deg);
 }
 
-ul li img{}
+ul li img {}
 
-ul li{
+ul li {
     position: relative;
     list-style: none;
     width: 250px;
@@ -32,7 +32,8 @@ ul li{
     transition: 0.5s;
     box-shadow: 0 0 5px #fff;
 }
-ul li:hover{
+
+ul li:hover {
     background: #e5b4ea;
     transform: transLateX(-45px);
     box-shadow: 0 0 5px #fff;
@@ -46,10 +47,11 @@ ul li::before {
     height: 100%;
     top: 0;
     left: -40px;
-    transform-origin:right;
+    transform-origin: right;
     transform: skewY(45deg);
     transition: .5s;
-    box-shadow: 0 0 5px #fff;}
+    box-shadow: 0 0 5px #fff;
+}
 
 ul li::after {
     content: "";
@@ -65,10 +67,11 @@ ul li::after {
     box-shadow: 0 0 5px #fff;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     transition: .5s;
 }
+
 ul li img {
     position: absolute;
     top: 5px;
@@ -82,15 +85,20 @@ ul li img {
 
 }
 
+ul li::after {
+    content: "";
+    position: absolute;
+    background: #e19ced;
+    width: 100%;
+    height: 40px;
+    top: -40px;
+    left: 0;
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: .5s;
+    box-shadow: 0 0 5px #fff;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.second {
+    margin-left: 150px;
+}
